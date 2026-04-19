@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Don Hempsmyer | Mobile Developer</title>
+    <meta
+      name="description"
+      content="Portfolio site for Don Hempsmyer, a mobile developer with Android, iOS, and technical troubleshooting experience."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <meta property="og:title" content="Don Hempsmyer | Mobile Developer" />
+    <meta
+      property="og:description"
+      content="Android and iOS portfolio featuring mobile apps, technical background, and project work."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/preview-card.svg" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#hero">DH</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span aria-hidden="true">◐</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="hero" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Junior Developer</p>
+            <h1>Native Android and iOS Developer</h1>
+            <p class="hero-copy">
+              I’m Spencer Hempsmyer, a Computer Science graduate focused on mobile development. My
+              background in electronics, RF troubleshooting, technical diagnostics, and military operations shaped the
+              way I build software: methodically, practically, and with close attention to behavior,
+              usability, and implementation detail.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button secondary" href="#experience">See My Background</a>
+            </div>
+            <div class="hero-meta" aria-label="Highlights">
+              <ul class="hero-highlights">
+                <li>B.S. in Computer Science with a Mobile Development focus</li>
+                <li>Android-first with Kotlin, Java, Jetpack Compose, and traditional Android UI patterns</li>
+                <li>Supporting iOS experience with Swift, UIKit, Storyboards, and app settings/persistence</li>
+              </ul>
+              <div class="hero-signal-strip" aria-label="Focus areas">
+                <span>Mobile UX</span>
+                <span>State & persistence</span>
+                <span>Root-cause debugging</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-profile" aria-label="Headshot and professional summary">
+            <figure class="headshot-frame">
+              <img
+                src="assets/Headshot.JPG"
+                alt="Portrait of Don Hempsmyer"
+              />
+            </figure>
+            <div class="profile-card">
+              <div class="profile-accent"></div>
+              <h2>At a glance</h2>
+              <dl>
+                <div>
+                  <dt>Focus</dt>
+                  <dd>Android, iOS, mobile UX, debugging</dd>
+                </div>
+                <div>
+                  <dt>Tech</dt>
+                  <dd>Kotlin, Java, Swift, Jetpack Compose, UIKit</dd>
+                </div>
+                <div>
+                  <dt>Strengths</dt>
+                  <dd>Problem solving, structured troubleshooting, implementation detail</dd>
+                </div>
+                <div>
+                  <dt>Open to</dt>
+                  <dd>Full-time, contract, freelance, product collaboration</dd>
+                </div>
+              </dl>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section surface">
+        <div class="container narrow">
+          <p class="eyebrow">About</p>
+          <h2>From electronics and RF troubleshooting to building dependable mobile apps.</h2>
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                Before moving into software, I worked in electronics and RF-focused environments
+                where troubleshooting meant following signals carefully, isolating faults, documenting
+                findings, and solving problems without guesswork. That experience shaped how I work:
+                stay calm around ambiguity, break issues into testable parts, and communicate clearly.
+              </p>
+              <p>
+                That mindset translates naturally into mobile development. I enjoy building app flows
+                that feel clean and practical, debugging behavior across UI and data layers, and
+                creating features that are useful without being overcomplicated. My strongest focus
+                is Android, with supporting iOS experience and an interest in products that solve
+                real-world workflow problems.
+              </p>
+            </div>
+            <div class="about-points card" aria-label="Strength summary">
+              <h3>How that shows up in my work</h3>
+              <ul class="about-list">
+                <li>Methodical debugging habits shaped by technical troubleshooting and repair work</li>
+                <li>Mobile project experience across UI architecture, persistence, APIs, media, and state handling</li>
+                <li>Comfort with documentation, repeatable workflows, and quality-minded implementation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Projects</p>
+              <h2>Selected mobile development work</h2>
+            </div>
+            <p class="section-copy">
+              A focused portfolio of Android-first and supporting iOS projects demonstrating UI
+              implementation, state management, persistence, media playback, and network-driven app development.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="card project-card">
+              <div class="project-tag">Android · Jetpack Compose</div>
+              <h3>Synaptic Purge</h3>
+              <div class="project-carousel" data-carousel aria-label="Synaptic Purge screenshots">
+                <div class="carousel-viewport">
+                  <div class="carousel-slide is-active" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for Synaptic Purge home screen" />
+                      <figcaption>Home and recording workflow</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for Synaptic Purge archive screen" />
+                      <figcaption>Archive and filtering view</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for Synaptic Purge settings screen" />
+                      <figcaption>Settings and detail interactions</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="carousel-controls">
+                  <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous screenshot">Previous</button>
+                  <div class="carousel-dots" role="tablist" aria-label="Choose screenshot">
+                    <button class="carousel-dot is-active" type="button" data-carousel-dot aria-label="Show screenshot 1" aria-selected="true"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 2" aria-selected="false"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 3" aria-selected="false"></button>
+                  </div>
+                  <button class="carousel-button" type="button" data-carousel-next aria-label="Next screenshot">Next</button>
+                </div>
+              </div>
+              <p>
+                Android app designed around audio recording and transcription workflows, with organized browsing,
+                filtering, archive handling, settings-driven behavior, and a cleaner multi-screen user experience.
+              </p>
+              <ul>
+                <li>Built with Jetpack Compose and Material 3 using state-driven UI architecture</li>
+                <li>Implemented searchable and filterable content flows with structured navigation patterns</li>
+                <li>Designed detail views, settings flows, and archive interactions to improve usability and consistency</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/donhempsmyer/synaptic-purge" target="_blank" rel="noreferrer">Repository</a>
+                <a href="#contact">Request walkthrough</a>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="project-tag">iOS · UIKit</div>
+              <h3>NewsAPI iOS App</h3>
+              <div class="project-carousel" data-carousel aria-label="NewsAPI iOS App screenshots">
+                <div class="carousel-viewport">
+                  <div class="carousel-slide is-active" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for NewsAPI iOS App article list screen" />
+                      <figcaption>Article list and category browsing</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for NewsAPI iOS App detail screen" />
+                      <figcaption>Article detail presentation</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for NewsAPI iOS App navigation flow" />
+                      <figcaption>UIKit navigation and remote data flow</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="carousel-controls">
+                  <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous screenshot">Previous</button>
+                  <div class="carousel-dots" role="tablist" aria-label="Choose screenshot">
+                    <button class="carousel-dot is-active" type="button" data-carousel-dot aria-label="Show screenshot 1" aria-selected="true"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 2" aria-selected="false"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 3" aria-selected="false"></button>
+                  </div>
+                  <button class="carousel-button" type="button" data-carousel-next aria-label="Next screenshot">Next</button>
+                </div>
+              </div>
+              <p>
+                iOS news application built to retrieve and display articles from a remote API, with an emphasis on
+                structured data flow, screen-to-screen navigation, and clean presentation of dynamic content.
+              </p>
+              <ul>
+                <li>Integrated a remote news API and mapped JSON responses into app-ready model objects</li>
+                <li>Built the interface with Swift, UIKit, and storyboard-based navigation patterns</li>
+                <li>Implemented article browsing flows focused on readable presentation and dependable data handling</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/newsapi-ios-app" target="_blank" rel="noreferrer">Repository</a>
+                <a href="#contact">Ask about the iOS build</a>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="project-tag">Android · Persistence</div>
+              <h3>Hunt Cozy</h3>
+              <div class="project-carousel" data-carousel aria-label="Hunt Cozy screenshots">
+                <div class="carousel-viewport">
+                  <div class="carousel-slide is-active" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/hunt_cozy/HomeScreenNavarino.png" alt="Placeholder screenshot for Hunt Cozy checklist screen" />
+                      <figcaption>Packing list overview</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/hunt_cozy/ConditionsScreenNavarino.png" alt="Placeholder screenshot for Hunt Cozy session screen" />
+                      <figcaption>Session workflow and saved state</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/hunt_cozy/ClosetAddGearScreenNavarino.png" alt="Placeholder screenshot for Hunt Cozy settings screen" />
+                      <figcaption>Practical utility-focused screens</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="carousel-controls">
+                  <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous screenshot">Previous</button>
+                  <div class="carousel-dots" role="tablist" aria-label="Choose screenshot">
+                    <button class="carousel-dot is-active" type="button" data-carousel-dot aria-label="Show screenshot 1" aria-selected="true"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 2" aria-selected="false"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 3" aria-selected="false"></button>
+                  </div>
+                  <button class="carousel-button" type="button" data-carousel-next aria-label="Next screenshot">Next</button>
+                </div>
+              </div>
+              <p>
+                Utility-focused Android app built around packing lists and session-based workflows, emphasizing
+                reliability, state recovery, and practical real-world use.
+              </p>
+              <ul>
+                <li>Implemented session persistence and recovery so user progress survives relaunches</li>
+                <li>Used ViewModel-based state management to keep UI behavior predictable and maintainable</li>
+                <li>Focused the design on clarity, reliability, and repeatable field-use workflows</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/donhempsmyer/hunt-cozy" target="_blank" rel="noreferrer">Repository</a>
+                <a href="#contact">Discuss implementation</a>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="project-tag">Android · Media</div>
+              <h3>Audio Player App</h3>
+              <div class="project-carousel" data-carousel aria-label="Audio Player App screenshots">
+                <div class="carousel-viewport">
+                  <div class="carousel-slide is-active" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/media_player/PlayScreen.png" alt="Placeholder screenshot for Audio Player App now playing screen" />
+                      <figcaption>Now playing interface</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/media_player/ExpandableNotification.png" alt="Placeholder screenshot for Audio Player App library screen" />
+                      <figcaption>Track list and album artwork</figcaption>
+                    </figure>
+                  </div>
+                  
+                </div>
+                <div class="carousel-controls">
+                  <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous screenshot">Previous</button>
+                  <div class="carousel-dots" role="tablist" aria-label="Choose screenshot">
+                    <button class="carousel-dot is-active" type="button" data-carousel-dot aria-label="Show screenshot 1" aria-selected="true"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 2" aria-selected="false"></button>
+                  </div>
+                  <button class="carousel-button" type="button" data-carousel-next aria-label="Next screenshot">Next</button>
+                </div>
+              </div>
+              <p>
+                Media-focused Android app built around foreground playback, album artwork, playback controls,
+                notifications, and a dedicated audio service for a more complete listening experience.
+              </p>
+              <ul>
+                <li>Built playback features using MediaPlayer and a dedicated AudioPlaybackService</li>
+                <li>Implemented playback controls, album art display, and elapsed/remaining time handling</li>
+                <li>Integrated notification-based media controls to support background audio behavior</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/donhempsmyer/Media-Player" target="_blank" rel="noreferrer">Repository</a>
+                <a href="#contact">See implementation details</a>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="project-tag">Android · API Integration</div>
+              <h3>Google Books Browser</h3>
+              <div class="project-carousel" data-carousel aria-label="Google Books Browser screenshots">
+                <div class="carousel-viewport">
+                  <div class="carousel-slide is-active" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for Google Books Browser search screen" />
+                      <figcaption>Search and browse results</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for Google Books Browser grid results screen" />
+                      <figcaption>Grid view with covers and titles</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-slide" data-carousel-slide>
+                    <figure class="carousel-figure">
+                      <img src="assets/project-shot-placeholder.svg" alt="Placeholder screenshot for Google Books Browser detail screen" />
+                      <figcaption>Book detail and data presentation</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="carousel-controls">
+                  <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous screenshot">Previous</button>
+                  <div class="carousel-dots" role="tablist" aria-label="Choose screenshot">
+                    <button class="carousel-dot is-active" type="button" data-carousel-dot aria-label="Show screenshot 1" aria-selected="true"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 2" aria-selected="false"></button>
+                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show screenshot 3" aria-selected="false"></button>
+                  </div>
+                  <button class="carousel-button" type="button" data-carousel-next aria-label="Next screenshot">Next</button>
+                </div>
+              </div>
+              <p>
+                Network-driven Android app that retrieves data from the Google Books API, parses JSON into
+                model objects, and presents results in a browsable grid-based interface.
+              </p>
+              <ul>
+                <li>Integrated a REST API and transformed remote JSON into app-ready data models</li>
+                <li>Displayed titles and cover images using adapter-based UI patterns and asynchronous loading</li>
+                <li>Refactored older background-task logic toward more modern Kotlin coroutine-based handling</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/google-books-browser" target="_blank" rel="noreferrer">Repository</a>
+                <a href="#contact">Ask about the build</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section surface">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Skills</p>
+              <h2>Core tools and technologies</h2>
+            </div>
+          </div>
+
+          <div class="skills-grid">
+            <article class="card">
+              <h3>Languages</h3>
+              <p>Kotlin, Java, Swift, C++, XML, SQL basics</p>
+            </article>
+            <article class="card">
+              <h3>Android</h3>
+              <p>Jetpack Compose, Material 3, Activities, Fragments, Views, RecyclerView, GridView, ViewModel, LiveData, Flow, Coroutines, Services, Notifications</p>
+            </article>
+            <article class="card">
+              <h3>iOS</h3>
+              <p>Swift, UIKit, Storyboards, UserDefaults, app theming, multi-screen view controller architecture</p>
+            </article>
+            <article class="card">
+              <h3>Data &amp; APIs</h3>
+              <p>REST APIs, JSON parsing, local persistence patterns, structured state management, image/data loading workflows</p>
+            </article>
+            <article class="card">
+              <h3>Workflow</h3>
+              <p>Git, GitHub, debugging, troubleshooting, incremental feature delivery</p>
+            </article>
+            <article class="card">
+              <h3>Technical Background</h3>
+              <p>RF troubleshooting, electronics test, calibration support, fault isolation, process discipline, quality-focused execution</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container narrow">
+          <p class="eyebrow">Experience</p>
+          <h2>Experience that connects technical troubleshooting to software execution.</h2>
+          <div class="timeline">
+
+            <article class="timeline-item card">
+              <div class="timeline-heading">
+                <div>
+                  <h3>Computer Science, Mobile Development</h3>
+                  <p class="muted">B.S. degree with Android and iOS project experience</p>
+                </div>
+                <span class="timeline-badge">Software Foundation</span>
+              </div>
+              <p>
+                Built mobile coursework and portfolio projects with stronger emphasis on Android
+                development while also gaining supporting iOS experience. The work emphasized
+                translating ideas into usable app flows, implementing mobile UI cleanly, and
+                debugging issues across screens, state, and data.
+              </p>
+              <ul class="timeline-list">
+                <li>Developed Android-first projects using Kotlin, Java, Jetpack Compose, and classic Android UI patterns</li>
+                <li>Built supporting iOS projects with Swift, UIKit, Storyboards, and local settings persistence</li>
+                <li>Applied core computer science concepts and structured debugging to practical app development</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item card">
+              <div class="timeline-heading">
+                <div>
+                  <h3>Keysight Technologies</h3>
+                  <p class="muted">Electronics / RF troubleshooting, repair, and technical process work</p>
+                </div>
+                <span class="timeline-badge">Technical Background</span>
+              </div>
+              <p>
+                Worked in a precision-focused environment where troubleshooting, repair flow,
+                documentation, and repeatability directly affected quality and throughput. This
+                background strengthened my root-cause analysis, comfort with technical complexity,
+                and ability to work methodically through ambiguous problems.
+              </p>
+              <ul class="timeline-list">
+                <li>Diagnosed technical faults systematically using specialized tools and resources</li>
+                <li>Worked within quality-driven processes where consistency, documentation, and accuracy mattered</li>
+                <li>Built strong habits around communicating technical findings clearly and following issues to resolution</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item card">
+              <div class="timeline-heading">
+                <div>
+                  <h3>U.S. Marine Corps</h3>
+                  <p class="muted">Air Traffic Control RADAR repair, technical leadership, and mission-focused operations</p>
+                </div>
+                <span class="timeline-badge">Military Foundation</span>
+              </div>
+              <p>
+                Served in a highly structured technical environment where equipment reliability, disciplined
+                troubleshooting, and clear communication directly supported operational readiness. That experience
+                strengthened my ability to work methodically, adapt under pressure, and solve technical problems
+                with precision and accountability.
+              </p>
+              <ul class="timeline-list">
+                <li>Performed troubleshooting and repair work on the ANTPN-31 ATNAVICS Air Traffic Control RADAR system and equipment</li>
+                <li>Developed strong habits around procedural discipline, documentation, and dependable execution in high-responsibility environments</li>
+                <li>Built experience in team leadership, coordination, and communicating technical issues clearly to support mission success</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section surface">
+        <div class="container contact-panel">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <p>
+              I’m interested in mobile development roles, contract work, and product opportunities
+              where strong implementation, debugging, and practical engineering judgment matter.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:spencerhempsmyer@gmail.com">Email Me</a>
+            <a class="button secondary" href="https://github.com/donhempsmyer" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/don-hempsmyer-a2bb66123" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Don Hempsmyer</p>
+        <p>Built for GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
