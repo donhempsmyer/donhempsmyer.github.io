@@ -6,7 +6,7 @@ The site highlights selected Android and iOS projects, with an emphasis on pract
 
 ## Live Site
 
-[View Portfolio](https://your-github-username.github.io/your-repo-name/)
+[View Portfolio](https://donhempsmyer.github.io/)
 
 ## Featured Projects
 
